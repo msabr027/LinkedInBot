@@ -16,16 +16,16 @@ load_dotenv(dotenv_path)
 
 
 # Configurable Constants
-EMAIL = os.getenv("USERNAME",'')
-PASSWORD = os.getenv("PASSWORD",'')
-VIEW_SPECIFIC_USERS = False
-SPECIFIC_USERS_TO_VIEW = ['CEO', 'CTO', 'Developer', 'HR', 'Recruiter']
+EMAIL = os.getenv("USERNAME",'mohamed@datalyticsbusiness.ca')
+PASSWORD = os.getenv("PASSWORD",'KCOVXY123')
+VIEW_SPECIFIC_USERS = True
+SPECIFIC_USERS_TO_VIEW = ['CEO', 'CTO', 'Data Scientist + Montreal', 'HR', 'Recruiter']
 NUM_LAZY_LOAD_ON_MY_NETWORK_PAGE = 5
-CONNECT_WITH_USERS = True
-RANDOMIZE_CONNECTING_WITH_USERS = True
+CONNECT_WITH_USERS = False
+RANDOMIZE_CONNECTING_WITH_USERS = False
 JOBS_TO_CONNECT_WITH = ['CEO', 'CTO', 'Developer', 'HR', 'Recruiter']
-ENDORSE_CONNECTIONS = False
-RANDOMIZE_ENDORSING_CONNECTIONS = True
+ENDORSE_CONNECTIONS = True
+RANDOMIZE_ENDORSING_CONNECTIONS = False
 VERBOSE = True
 
 
