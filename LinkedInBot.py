@@ -19,7 +19,7 @@ load_dotenv(dotenv_path)
 EMAIL = os.getenv("USERNAME",'mohamed@datalyticsbusiness.ca')
 PASSWORD = os.getenv("PASSWORD",'KCOVXY123')
 VIEW_SPECIFIC_USERS = True
-SPECIFIC_USERS_TO_VIEW = ['artificial intelligence + montreal', 'cto + montreal', 'data scientist + montreal', 'data manager + montreal', 'bi manager + montreal','analytics + montreal','big data + montreal','automation + montreal']
+SPECIFIC_USERS_TO_VIEW = ['artificial intelligence', 'cto', 'data scientist', 'data', 'bi','analytics','big','automation','intelligence artificielle','BI','B.I','business intelligence','science de données','scientifique des données','données','director','manager']
 NUM_LAZY_LOAD_ON_MY_NETWORK_PAGE = 5
 CONNECT_WITH_USERS = False
 RANDOMIZE_CONNECTING_WITH_USERS = False
